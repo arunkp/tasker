@@ -1,6 +1,6 @@
 # Tasker, a task making app using create-react-app React Project with Node Express Backend
 
-> Tasker on using create-react-app with a Node Express Backend
+> This project is an experiment to learn and teach React, Redux and Node Express Backend 
 
 ## Usage
 
@@ -24,7 +24,7 @@ To start the server and client at the same time (from the root of the project)
 yarn dev
 ```
 
-Running the production build on localhost. This will create a production build, then Node will serve the app on http://localhost:5000
+Running the production build on localhost. This will create a production build, then Node will serve the app on http://localhost:9001
 
 ```
 NODE_ENV=production yarn dev:server
