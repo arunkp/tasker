@@ -1,0 +1,18 @@
+{
+    "tasks": [
+    {
+        "id": 0,
+        "title": "Welcome to Netherlands",
+        "description": "The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields, windmills and cycling routes. "
+    },
+    {
+        "id": 1,
+        "title": "Welcome to Europe",
+        "description": "Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere."
+    },
+    {
+        "id": 2,
+        "title": "Welcome to Berlin",
+        "description": "Berlin, Germany’s capital, dates to the 13th century. Reminders of the city's turbulent 20th-century history include its Holocaust memorial and the Berlin Wall's graffitied remains."
+    }]
+}

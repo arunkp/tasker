@@ -1,0 +1,37 @@
+{
+  "name": "Tasker",
+  "version": "1.0.0",
+  "description": "Tasker is a task making application made using react and redux",
+  "author": {
+    "name": "Arun KP",
+    "email": "kp@arunkp.com",
+    "url": "https://arunkp.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "dev:server": "cd client && yarn build && cd .. && yarn start",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunkp/tasker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arunkp/tasker/issues"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}

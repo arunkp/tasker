@@ -1,0 +1,15 @@
+.container {
+  width: 960px;
+  margin: auto; }
+  .container .tasks {
+    padding: 0; }
+    .container .tasks .task {
+      list-style-type: none;
+      width: 100%;
+      display: block; }
+
+.modal.show {
+  display: block; }
+
+.modal.hidden {
+  display: none !important; }
